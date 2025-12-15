@@ -1,0 +1,96 @@
+
+.todo-container {
+  width: 100%;
+}
+
+
+.add-todo {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  height: 48px;
+  padding: 0 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.todo-input:focus {
+  border-color: #0ea5a4;
+}
+.add-btn {
+  height: 48px;
+  padding: 0 22px;
+  font-size: 15px;
+  background: #0ea5a4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.add-btn:hover {
+  background: #047e7c;
+}
+.empty-text {
+  text-align: center;
+  color: #777;
+  margin-top: 10px;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+.todo-text {
+  font-size: 16px;
+  color: #333;
+}
+.todo-completed {
+  text-decoration: line-through;
+  color: #999;
+}
+.todo-actions {
+  display: flex;
+  gap: 8px;
+}
+.todo-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+.btn-pending {
+  background: #f59e0b;
+}
+
+.btn-complete {
+  background: #22c55e;
+}
+
+.btn-edit {
+  background: #0ea5a4;
+}
+
+.btn-delete {
+  background: #ef4444;
+}
+
+.todo-btn:hover {
+  opacity: 0.85;
+}
+

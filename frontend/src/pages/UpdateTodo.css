@@ -1,0 +1,46 @@
+
+.update-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.update-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.update-input {
+  width: 90%;
+  height: 46px;
+  padding: 0 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.update-input:focus {
+  border-color: #0ea5a4;
+}
+
+.update-btn {
+  padding: 10px 24px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #0ea5a4;
+  color: #ffffff;
+}
+
+.update-btn:hover {
+  background-color: #047e7c;
+}
